@@ -11,7 +11,7 @@ int binarySearch(int arr[], int n, int val)
         if(arr[mid]==val)		
             return mid;	         // return it if you found it in the middle
 	    
-	// not found ? will move rigth or left depend on its value ( Sorted Array :)  )
+	
         else if(arr[mid]<val)	 
             s=mid+1;		 // get rid of the left half : new starting position = after the previous middle
         else if(arr[mid>val])	
